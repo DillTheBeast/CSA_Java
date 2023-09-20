@@ -32,10 +32,8 @@ public class Calc {
         switch (type) {
             case("a"):
                 return num1 + num2;
-
             case("s"):
                 return num1 - num2;
-
             case("m"):
                 return num1 * num2;
             case("d"):
