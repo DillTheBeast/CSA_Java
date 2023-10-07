@@ -16,18 +16,27 @@ public class Methods {
     //     return "Hello";
     // }
     public static void main(String[] args) {
-        boolean x = prime();
-        System.out.println(x);
+        //boolean x = prime();
+        //System.out.println(x);
+        int m = reverse();
+        System.out.println(m);
     }
-    public static boolean prime() {
-        Scanner Scan = new Scanner(System.in);
+    // public static boolean prime() {
+    //     Scanner Scan = new Scanner(System.in);
 
+    //     int n = Scan.nextInt();
+    //     for(int i = 2; i < n; i++) {
+    //         if(n % i == 0) {
+    //             return false;
+    //         }
+    //     }
+    //     return true;
+    // }
+    public static int reverse() {
+        Scanner Scan = new Scanner(System.in);
         int n = Scan.nextInt();
-        for(int i = 2; i < n; i++) {
-            if(n % i == 0) {
-                return false;
-            }
-        }
-        return true;
+        String reversed = new StringBuilder(String.valueOf(n)).reverse().toString();
+        return Integer.parseInt(reversed);
+
     }
 }
