@@ -37,6 +37,7 @@ public class Methods {
         int n = Scan.nextInt();
         String reversed = new StringBuilder(String.valueOf(n)).reverse().toString();
         return Integer.parseInt(reversed);
+        
 
     }
 }
