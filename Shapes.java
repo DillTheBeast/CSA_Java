@@ -15,7 +15,7 @@ public class Shapes {
         */
         //Flipped Triangle
         for (int y = 0; y < n; y++) {
-            for(int x = y; x < n ;x++) {
+            for(int x = y; x < n-1 ;x++) {
                 System.out.print("  ");
             }
             for(int z = 0; z < y + 1;z++ ) {
