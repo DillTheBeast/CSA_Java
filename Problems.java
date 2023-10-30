@@ -1,7 +1,4 @@
-import java.io.IOException;
 import java.util.Scanner;
-
-import javax.xml.namespace.QName;
 
 public class Problems {
     //Take in a string of 5 numbers
@@ -62,6 +59,7 @@ public class Problems {
             return findGCF(b, a % b);
         }
     }
+
     public static Integer lcm() {
         //Know that LCM = (a*b)/(gcf(a, b))
         Scanner Scan = new Scanner(System.in);
