@@ -5,8 +5,10 @@ public class Cars {
     public static void main(String[] args) {
         Electric car1 = new Electric(3, 2, "White");
         car1.info();
-        NonElectric car2 = new NonElectric(4, 5, "Black");
+        NonElectric car2 = new NonElectric(4, 5);
         car2.info();
+        NonElectric car4 = new NonElectric("Blue");
+        car4.info();
         Hybrid car3 = new Hybrid(6, 7, 8, "Blue");
         car3.info();
     }
@@ -31,9 +33,11 @@ class NonElectric {
     int gas;
     String color;
 
-    public NonElectric(int time, int gas, String color) {
+    public NonElectric(int time, int gas) {
         this.time = time;
         this.gas = gas;
+    }
+    public NonElectric(String color) {
         this.color = color;
     }
 
