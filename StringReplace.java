@@ -10,9 +10,6 @@ public class StringReplace {
             if(str.charAt(i) != ';' && str.charAt(i) != '@' && str.charAt(i) != '!') {
                 end += str.charAt(i);
             }
-            if(arr[i] == 'j') {
-                
-            }
         }
         System.out.println(end);
     }
