@@ -1,6 +1,7 @@
+package Submit1;
 import java.util.Scanner;
 
-public class ExponentsWithRecursion {
+public class Exponents {
     public static void main(String[] args) {
         Scanner Scan = new Scanner(System.in);
         System.out.println("Give me the base");

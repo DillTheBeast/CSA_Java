@@ -1,3 +1,4 @@
+package Submit1;
 import java.util.Scanner;
 
 public class ArrayReverse {
@@ -6,7 +7,7 @@ public class ArrayReverse {
         int arr[] = new int[5];
         int holder = 0;
         for(int i = 0; i < arr.length; i++) {
-            System.out.println("Give me a number:");
+            System.out.println("Give me a number with digits 1 by 1:");
             arr[i] = scan.nextInt();
         }
         for(int i = 0; i < arr.length/2; i++) {
@@ -14,9 +15,9 @@ public class ArrayReverse {
             arr[i] = arr[arr.length - i - 1];
             arr[arr.length - i - 1] = holder;
         }
-        System.out.println("Your new array is:\n");
+        System.out.println("Your new array is:");
         for(int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+            System.out.print(arr[i] + " ");
         }
     }
 }

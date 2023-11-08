@@ -1,3 +1,5 @@
+package Submit1;
+
 public class Arithmatic {
     public static void main(String[] args) {
         Add num1 = new Add(2, 1);

@@ -5,5 +5,6 @@ public class Test {
             if(a.charAt(i) == ' ') {
                 System.out.println("Test");
             }
+        }
     }
 }

@@ -1,3 +1,5 @@
+package Submit1;
+
 import java.util.Scanner;
 
 public class Seperation {

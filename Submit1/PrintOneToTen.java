@@ -1,7 +1,8 @@
-public class OddNum {
+package Submit1;
+
+public class PrintOneToTen {
     public static void main(String[] args) {
-        int start = 1;
-        for(int i = 1; i < 10; i += 2) {
+        for(int i = 1; i <= 10; i++) {
             System.out.println(i);
         }
     }
