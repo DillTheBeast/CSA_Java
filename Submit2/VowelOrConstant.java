@@ -3,11 +3,12 @@ import java.util.Scanner;
 
 public class VowelOrConstant {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         // Input a character from the user
         System.out.print("Enter a character: ");
-        char inputChar = scanner.next().charAt(0);
+        String input = scan.nextLine();
+        char inputChar = input.charAt(0);
 
         // Check if the entered character is a vowel or a consonant
         if (isVowel(inputChar)) {
@@ -15,8 +16,6 @@ public class VowelOrConstant {
         } else {
             System.out.println(inputChar + " is a consonant.");
         }
-
-        scanner.close();
     }
 
     // Function to check if a character is a vowel
