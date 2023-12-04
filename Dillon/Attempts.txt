@@ -1,0 +1,7 @@
+For both files I tried:
+    silent123 and listen321 and got they are anagrams
+    silence234 and listen243 and got they are not anagrams
+    1234 and 4321 and got they are anagrams
+    85420 and 05428 and got they are anagrams
+    silent and listen and got they are anagrams
+    attempt and emttpat and got they are anagrams
