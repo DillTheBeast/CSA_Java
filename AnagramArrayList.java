@@ -43,8 +43,8 @@ public class AnagramArrayList {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         ArrayList<String> list = new ArrayList<String>();
-        int num1 = scan.nextInt();
-        int num2 = scan.nextInt();
+        String num1 = scan.nextLine();
+        String num2 = scan.nextLine();
         list.add(String.valueOf(num1));
         list.add(String.valueOf(num2));
 
