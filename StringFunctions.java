@@ -1,4 +1,4 @@
-package Submit1;
+
 
 public class StringFunctions {
     public static void main(String[] args) {
@@ -38,9 +38,9 @@ public class StringFunctions {
         System.out.println(s.length());
 
         //Splits the String into what comes before the character inside the parentheses and what comes after
-        String[] s2 = s.split("e");
-        for(int i = 0; i < s2.length; i++) {
-            System.out.println(s2[i]);
-        }
+        String[] s2 = s.split(" ");
+        // for(int i = 0; i < s2.length; i++) {
+        //     System.out.println(s2[i]);
+        // }
     }
 }
