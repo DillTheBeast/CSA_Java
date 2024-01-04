@@ -29,18 +29,11 @@ public class WordMatch {
         int score1 = scoreGuess(guess1);
         int score2 = scoreGuess(guess2);
         if (score1 < score2) { return guess2; }
-        else if (score1 == score2) {
-            for(int i = 0; i < guess1.length(); i++) {
-                if(guess1.charAt(i) < guess2.charAt(i)) {
-                    return guess1;
-                }
-                else if(guess1.charAt(i) > guess2.charAt(i)) {
-                    return guess2;
-                }
-            }
-            return "Same";
+        else if (score1 > score2) { return guess1;}
+        else { 
+            String end = String.valueOf(guess1.compareTo(guess2));
+            return end;
         }
-        else { return guess1; }
     }
 
     public static void main(String[] args) {
