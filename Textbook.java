@@ -2,6 +2,7 @@ public class Textbook {
     public static void main(String[] args) {
         Book bio2015 = new Book("Bio", 49.75f, 2);
         Book bio2019 = new Book("Bio", 39.75f, 3);
+        bio2015.canSubsituteFor(bio2019);
     }
 }
 
