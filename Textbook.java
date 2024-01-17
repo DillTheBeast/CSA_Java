@@ -2,29 +2,41 @@ public class Textbook {
     public static void main(String[] args) {
         Book bio2015 = new Book("Bio", 49.75f, 2);
         Book bio2019 = new Book("Bio", 39.75f, 3);
-        bio2015.canSubsituteFor(bio2019);
+        bio2015.checkSubstitutionCompatibility(bio2019);
     }
 }
 
-class Book {
-    public String subject;
-    public float price;
-    public int edition;
+class Book extends BookTest {
+    private int edition;
 
-    public Book(String s, float p, int e) {
-        subject = s;
-        price = p;
-        edition = e;
+    public Book(String subject, double price, int edition) {
+        super(subject, price);
+        this.edition = edition;
     }
 
-    public void getBookInfo() {
-        System.out.println(subject + "-" + price + "-" + edition);
+    public void displayBookInfo() {
+        System.out.println(getSubject() + " - $" + getPrice() + " - Edition " + edition);
     }
 
-    public boolean canSubsituteFor(Book secondBook) {
-        if (subject.equals(secondBook.subject) && edition > secondBook.edition) {
-            return true;
-        }
-        return false;
+    public boolean checkSubstitutionCompatibility(Book secondBook) {
+        return getSubject().equals(secondBook.getSubject()) && edition >= secondBook.edition;
+    }
+}
+
+class BookTest {
+    private String subject;
+    private double price;
+
+    public BookTest(String subject, double price) {
+        this.subject = subject;
+        this.price = price;
+    }
+
+    public String getSubject() {
+        return subject;
+    }
+
+    public double getPrice() {
+        return price;
     }
 }
