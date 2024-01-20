@@ -3,7 +3,7 @@ public class Textbook {
     public static void main(String[] args) {
         Book bio2015 = new Book("Bio", 49.75f, 2);
         Book bio2019 = new Book("Bio", 39.75f, 3);
-        bio2015.checkSubstitutionCompatibility(bio2019);
+        System.out.println(bio2015.checkSubstitutionCompatibility(bio2019));
     }
 }
 
@@ -20,7 +20,7 @@ class Book extends BookTest {
     }
 
     public boolean checkSubstitutionCompatibility(Book secondBook) {
-        return getSubject().equals(secondBook.getSubject()) && edition >= secondBook.edition;
+        return getSubject().equals(secondBook.getSubject()) && edition <= secondBook.edition;
     }
 }
 
