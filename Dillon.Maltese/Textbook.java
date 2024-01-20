@@ -1,3 +1,4 @@
+//Everything works as intended but the classes have different names than in the examples
 public class Textbook {
     public static void main(String[] args) {
         Book bio2015 = new Book("Bio", 49.75f, 2);

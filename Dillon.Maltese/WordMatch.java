@@ -1,4 +1,3 @@
-package Dillon2;
 public class WordMatch {
     private String secret;
     public WordMatch(String word)
