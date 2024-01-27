@@ -1,12 +1,11 @@
 
-Let's go through each question:
-
 1. To print a value that is 1 more than twice the value of n, you can use the following:
 
 I. int result = 2 * n; result = result + 1;
 II. int result = n + 1; result = result * 2;
 III. int result = (n + 1) * 2;
-The correct answer is (E) II and III.
+
+Answer: A
 
 2. Evaluate the expression: a + b / c * 2
 
