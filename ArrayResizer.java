@@ -2,8 +2,26 @@ public class ArrayResizer {
 
 
     public static int numNonZeroRows(int[][] array2D) {
-        return 2;
+        int count = 0;
+
+        for (int[] row : array2D) {
+            boolean allNonZero = true;
+
+            for (int value : row) {
+                if (value == 0) {
+                    allNonZero = false;
+                    break;
+                }
+            }
+
+            if (allNonZero) {
+                count++;
+            }
+        }
+
+        return count;
     }
+
     public static boolean isNonZeroRow(int[][] array2D, int r) {
         for (int value : array2D[r]) {
             if (value == 0) {
