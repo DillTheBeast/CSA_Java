@@ -1,26 +1,125 @@
+Dillon Maltese
+
 Answer 1: 
-    A because 1 is 2n + 1 not 2(n + 1)
+A because I is 2n + 1 not 2(n + 1)
 
 Answer 2: 
-    5 + ((8 / 3) * 2) = 
-    5 + (2 * 2) = 
-    5 + 4 = 
-    9
-    D
+5 + ((8 / 3) * 2) = 
+5 + (2 * 2) = 
+5 + 4 = 
+9
+D
 
 Answer 3:
-    
+Num = a + 3
+D = b - 1
+Num / d
+A + 3 / b - 1
+B
 
 Answer 4:
+A
+No error because the cast does not interfere with the code that is running
 
 Answer 5:
+9/4 = 2.0, rounded when converted because the division is of two ints
+(int) 2.0 = 2
+B
 
 Answer 6:
+x = 5.5 - 2.5 = 3
+y = 5 - 2.5 = 2.5
+3 - 2.5 = 0.5
+D
 
 Answer 7:
+Operations would run with no error because (int) ½ = 0, it wouldn’t throw an error.
+A
 
 Answer 8:
+X is converted to an integer and then multiplied by 2, this makes it 8.
+A
 
-Answer 9: 
+
+
+
+
+Answer 9:
+C
 
 Answer 10:
+A = 5 x 3 = 15
+B = 4 + 15 = 19
+B = 19/2 = 9.5 (integer so the decimal is deleted) = 9
+C
+
+Answer 11:
+C
+
+Answer 12:
+E
+
+Answer 13:
+B
+
+Answer 14:
+B
+
+Answer 15:
+Num += num = 2*num
+(2*num) *= (2*num) = 4*num2
+D
+
+Answer 16:
+Int onesDigit = 75%10 = 5
+Int tensDigit = 75/10 = 7
+A
+
+Answer 17:
+I = 9 + (10 % 12) = 9 + 2 = 11
+II = (9+10) % 12 = 19 % 12 = 7
+III = 9 - (2 % 12) = 9 - 10 = -1
+B
+
+
+Answer 18:
+5 + (6 x 2) = 17
+17 - (3/2) = 16
+E
+
+Answer 19:
+ k = k - 2 + 2
+count = count + 2
+D
+
+Answer 20:
+D
+
+Answer 21:
+A = 4 + 1 = 5
+B = 5 + 1 = 6
+C = 5 + 6 = 11
+A = 5 - 1 = 4
+Print( 4 + 11 );
+D
+Answer 22:
+D
+
+Answer 23:
+A
+
+Answer 24:
+1st line = ***
+2nd line = ***
+3rd line = ****
+D
+
+Answer 25:
+B
+
+Answer 26:
+A
+
+Answer 27:
+8 % 5 = 3
+E
