@@ -1,8 +1,8 @@
 public class Test {
     public static void main(String[] args) {
-        int a = 5;
-        int b = 8;
-        int c = 3;
-        System.out.println(b / c);
+        double num = 9.0 / 4.0;
+        System.out.print(num);
+        System.out.print(" ");
+        System.out.print((int) num);
     }
 }
