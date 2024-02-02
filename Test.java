@@ -1,10 +1,8 @@
 public class Test {
     public static void main(String[] args) {
-        int a = 5;
-int b = 8;
-int c = 3;
-System.out.println(a + b / c * 2);
-
-
+        int one = 1;
+       int two = 2;
+       String zee = "Z";
+       System.out.println(one + two + zee);
     }
 }
