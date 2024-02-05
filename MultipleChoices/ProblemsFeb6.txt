@@ -26,22 +26,28 @@ Answer 8:
 B
 
 Answer 9:
-
+E
 
 Answer 10:
-
+A
 
 Answer 11:
-
+10.0 + 20.0 + 30.0 + 40.0 = 100.0
+A
 
 Answer 12:
-
+80 * 0.05 = 4
+80.0 + 4.0 = 84.0
+D
 
 Answer 13:
-
+4 + 5 = 9
+1 - 3 = -2
+9 + -2 = 11
+C
 
 Answer 14:
-
+D
 
 Answer 15:
 
