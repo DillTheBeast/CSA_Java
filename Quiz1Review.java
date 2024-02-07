@@ -2,8 +2,13 @@
 
 public class Quiz1Review {
     public static void main(String[] args) {
-        B test = new B();
-        System.out.println(test.getInfo());
+        getInfo(10);
+    }
+    public static void getInfo(int x) {
+        System.out.println(x/2);
+        if (x%2 == 0) {
+            getInfo(x-1);
+        }
     }
 }
 
@@ -32,15 +37,15 @@ public class Quiz1Review {
 //     }
 // }
 
-class A {
-    public String getInfo() {
-        return "ABC";
-    }
-}
+// class A {
+//     public String getInfo() {
+//         return "ABC";
+//     }
+// }
 
-class B extends A {
-    public String B() {
-        super.getInfo();
-        return "XYZ";
-    }
-}
+// class B extends A {
+//     public String B() {
+//         super.getInfo();
+//         return "XYZ";
+//     }
+// }
