@@ -50,42 +50,47 @@ Answer 14:
 D
 
 Answer 15:
-GO BACK
+B
 
 Answer 16:
-
+D
 
 Answer 17:
-
+B
 
 Answer 18:
-
+E
 
 Answer 19:
-
+D
 
 Answer 20:
-
+3.0/2.0 = 1.5
+1.5/2 = 0.75
+C
 
 Answer 21:
-
+D
 
 Answer 22:
-
+A
 
 Answer 23:
-
+C
 
 Answer 24:
-
+E
 
 Answer 25:
-
+A: Thing snack = new Thing("Potato chip);
+B: favFood.printMessage();
+C: something.setName(something.getName().substring(0, something.getName().length()));
 
 Answer 26:
-
+D
 
 Answer 27:
-
+B
 
 Answer 28:
+A

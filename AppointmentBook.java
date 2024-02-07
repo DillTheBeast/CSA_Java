@@ -29,10 +29,10 @@ public int findFreeBlock(int period, int duration) {
                 return minute – blockLength + 1;
             }
         }  
-    else {
-    blockLength = 0;
-    }
-    }
+        else {
+        blockLength = 0;
+        }
+        }
     return -1;
 }
 /**

@@ -1,11 +1,25 @@
 public class Test {
     public static void main(String[] args) {
-        int a = 1988;
-int b = 1990;
-       String claim = " that the world’s athletes " +
-                  "competed in Olympic Games in ";
-       String s = "It is " + true + claim + a +
-               " but " + false + claim + b + ".";
-       System.out.println(s);
+        Integer val = 10;
+        int result1 = timesTwo(val);
+        Integer result2 = result1;
+        System.out.print(result2);
+
     }
+    public static int timesTwo (int n)
+       {
+return n * 2; }
+
+}
+class WindTurbine
+       {
+            private double efficiencyRating;
+            public WindTurbine()
+            {
+                efficiencyRating = 0.0;
+            }
+            public WindTurbine(double e)
+            {
+                efficiencyRating = e;
+            }
 }
