@@ -1,25 +1,18 @@
 public class Test {
     public static void main(String[] args) {
-        Integer val = 10;
-        int result1 = timesTwo(val);
-        Integer result2 = result1;
-        System.out.print(result2);
+        int[] s = {3, 4};
+        int b = 4;
+        test(s, b);
+        for(int i = 0; i < s.length; i++) {
+            System.out.println(s[i]);
+        }
+        System.out.println(b);
 
     }
-    public static int timesTwo (int n)
-       {
-return n * 2; }
-
-}
-class WindTurbine
-       {
-            private double efficiencyRating;
-            public WindTurbine()
-            {
-                efficiencyRating = 0.0;
-            }
-            public WindTurbine(double e)
-            {
-                efficiencyRating = e;
-            }
+    public static void test(int[] a, int y) {
+        if (a.length > 1) {
+            a[1] = a[1] * 2;
+        }
+        y = y * 2;
+    }
 }
