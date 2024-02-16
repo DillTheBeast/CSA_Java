@@ -71,3 +71,91 @@ y = -1
 D
 
 Answer 13:
+A because 1900 is a multiple of 4 but is also a multiple of 100 and is not a multiple of 400
+
+Answer 14:
+C because false && true || false is false but true || true && false is true so Third only gets printed
+
+Answer 15:
+4 is less than 5 and true
+5 is greater than 0
+start = 6
+end = 6
+6 is not less than 6
+B
+
+Answer 16:
+7 is greater than 4
+3 is greater than or equal to 3
+a = true
+x = 3
+3 is less than 4
+1 is not greater than or equal to 3
+x = 7
+C
+
+Answer 17:
+a = 10
+b = 10
+D
+
+Answer 18:
+public static void determineRelationship(Kid one, Kid two) {
+    if (one == two) {
+        System.out.println("Same kid");
+    } else {
+        Parent parentOne = one.getParent();
+        Parent parentTwo = two.getParent();
+        
+        if (parentOne.equals(parentTwo)) {
+            System.out.println("Same parent");
+        } else {
+            System.out.println("Unrelated");
+        }
+    }
+}
+
+Answer 19:
+school = closed when >= 95
+C
+
+Answer 20:
+7 is not < 7
+7 mod 3 = 1
+x = 9
+9 x 3 = 27
+E
+
+Answer 21:
+finalPrice = 100
+onClearance is true
+finalPrice - 25 = 75
+hasCoupon is not true
+D
+
+Answer 22:
+public int spin(int min, int max) {
+    Random random = new Random();
+    int result = random.nextInt((max - min) + 1) + min;
+    return result;
+}
+
+public void playRound() {
+    winner = false
+    attempts = 0
+    while(!winner || attempts < 2) {
+        int playerScore = spin(1, 10);
+        int computerScore = spin(2, 8);
+        int diff = playerScore - computerScore;
+        if(computerScore > playerScore) System.out.println("You lose. " + diff + " points");
+        else if(computerScore < playerScore) System.out.println("You win. " + diff + " points");
+        else attempts += 1
+    }
+    if (!winner) System.out.println("Tie. " + diff + " points");
+}
+
+Answer 23:
+E
+
+Answer 24:
+C
