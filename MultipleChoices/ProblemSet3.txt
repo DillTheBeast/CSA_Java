@@ -143,15 +143,31 @@ public int spin(int min, int max) {
 public void playRound() {
     winner = false
     attempts = 0
+    int playerScore;
+    int computerScore;
+    int oldPlayerScore;
+    int oldComputerScore;
+    int diff;
     while(!winner || attempts < 2) {
-        int playerScore = spin(1, 10);
-        int computerScore = spin(2, 8);
-        int diff = playerScore - computerScore;
+        if (attempts == 1) {
+            oldPlayerScore = playerScore
+            oldComputerScore = computerScore
+        }
+        playerScore = spin(1, 10);
+        computerScore = spin(2, 8);
+        diff = playerScore - computerScore;
         if(computerScore > playerScore) System.out.println("You lose. " + diff + " points");
         else if(computerScore < playerScore) System.out.println("You win. " + diff + " points");
         else attempts += 1
     }
-    if (!winner) System.out.println("Tie. " + diff + " points");
+    if (!winner) {
+        totalPlayerScore = playerScore + oldPlayerScore
+        totalComputerScore = computerScore + oldComputerScore
+        diff = totalPlayerScore - totalComputerScore;
+        if (totalPlayerScore > totalComputerScore) System.out.println("You win. " + diff + " points");
+        else if (totalComputerScore > totalPlayerScore) System.out.println("You lose. " + diff + " points");
+        else System.out.println("Tie. " + diff + " points");
+    }
 }
 
 Answer 23:
