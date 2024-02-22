@@ -1,3 +1,4 @@
+package MultipleChoices.FirstFreeResponse;
 public class Hailstone {
     public static int hailstoneLength(int n) {
         int length = 1;
