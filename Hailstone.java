@@ -23,9 +23,4 @@ public class Hailstone {
         }
         return (double) longSequences / n;
     }
-    public static void main(String[] args) {
-        int n = 100; // Change this to the desired value for 'n'
-        double prop = propLong(n);
-        System.out.println("Proportion of numbers with long sequences up to " + n + ": " + prop);
-    }    
 }
