@@ -1,23 +1,45 @@
 public class Test {
     public static void main(String[] args) {
-        A a = new B();
+        
     }
 }
 
-class A {
-    public void getInfo() {
-        System.out.println("A");
+class Animal {
+    String type;
+    String species;
+    String name;
+
+    public Animal(String t, String s, String n) {
+        type = t;
+        species = s;
+        name = n;
+    }
+
+    public void toStrings() {
+        System.out.println("sdfsdfsdf");
     }
 }
 
-class B extends A {
-    public void getInfo() {
-        System.out.println("B");
+class Herbivore extends Animal {
+
+    public Herbivore(String t, String n) {
+        super(t, "Herbivore", n);
+    }
+
+    public void toStrings() {
+        System.out.println("sdfsdfsdf");
     }
 }
 
-class C extends B {
-    public void getInfo() {
-        System.out.println("C");
+class Elephant extends Herbivore {
+    double length;
+
+    public Elephant(String n, double l) {
+        super("Elephant", n);
+        length = l;
+    }
+
+    public void toStrings() {
+        System.out.println(name + " the " + species + " is a " + type + " with " + length);
     }
 }
