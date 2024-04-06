@@ -43,4 +43,3 @@ class Elephant extends Herbivore {
         System.out.println(name + " the " + species + " is a " + type + " with " + length);
     }
 }
-

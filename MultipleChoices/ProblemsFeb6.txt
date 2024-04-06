@@ -1,0 +1,96 @@
+Answer 1:
+C
+
+Answer 2:
+5 - 1 = 4
+10 - 2 = 8
+8/4
+A
+
+Answer 3:
+E
+
+Answer 4:
+C because it is the only double with an int then bool
+
+Answer 5:
+E
+
+Answer 6:
+D
+
+Answer 7:
+D
+
+Answer 8:
+B
+
+Answer 9:
+E
+
+Answer 10:
+A
+
+Answer 11:
+10.0 + 20.0 + 30.0 + 40.0 = 100.0
+A
+
+Answer 12:
+80 * 0.05 = 4
+80.0 + 4.0 = 84.0
+D
+
+Answer 13:
+4 + 5 = 9
+1 - 3 = -2
+9 + -2 = 11
+C
+
+Answer 14:
+D
+
+Answer 15:
+B
+
+Answer 16:
+D
+
+Answer 17:
+B
+
+Answer 18:
+E
+
+Answer 19:
+D
+
+Answer 20:
+3.0/2.0 = 1.5
+1.5/2 = 0.75
+C
+
+Answer 21:
+D
+
+Answer 22:
+A
+
+Answer 23:
+C
+
+Answer 24:
+E
+
+Answer 25:
+A: Thing snack = new Thing("Potato chip);
+B: favFood.printMessage();
+C: something.setName(something.getName().substring(0, something.getName().length()));
+
+Answer 26:
+D
+
+Answer 27:
+B
+
+Answer 28:
+A

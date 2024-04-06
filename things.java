@@ -1,9 +1,11 @@
+import java.util.ArrayList;
+
 public class things {
     public static void main(String[] args) {
-        add(3, 2);
-    }
+        ArrayList years = new ArrayList();
+        years.add(8);
+        years.add("Test");
+        System.out.println(years);
 
-    public static int add(int x, int y) {
-        return x + y;
     }
 }

@@ -40,10 +40,6 @@ Answer 8:
 X is converted to an integer and then multiplied by 2, this makes it 8.
 A
 
-
-
-
-
 Answer 9:
 C
 
