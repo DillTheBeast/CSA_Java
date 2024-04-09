@@ -37,7 +37,6 @@ class ExperimentalFarm {
             }
         }
         return p;
-
     }
 
     public boolean sameCrop(int col) {
