@@ -3,18 +3,36 @@ import java.util.List;
 
 public class thingy {
     public static void main(String[] args) {
-        List<String> students = new ArrayList<String>();
-        students.add("Alex");
-        students.add("Bob");
-        students.add("Charlles");
-        for(int k = 0; k < students.size(); k++) {
-            System.out.println(students.set(k, "Alex") + " ");
-        }
+        int[][] start = {{1, 2, 3}, {4, 5, 6, 9}, {7, 8, 9}};
+        boolean ischeck = isDiverse(start);
+        System.out.println(ischeck);
+    }
 
-        System.out.println();
+    public static int arraySum(int[] arr) {
+        int sum = 0;
+        for(int num : arr) sum += num;
+        return sum;
+    }
 
-        for(String str : students) {
-            System.out.println(str + " ");
+    public static int[] arraySum(int[][] arr) {
+        int sums[] = new int[arr.length];
+        for(int i = 0; i < arr.length; i++) {
+            sums[i] = arraySum(arr[i]);
         }
+        return sums;
+    }
+
+    public static boolean isDiverse(int[][] arr2D) {
+        int[] end = arraySum(arr2D);
+        int curr = 0;
+        for(int x = 0; x < end.length; x++) {
+            curr = end[x];
+            for(int y = 0; y < end.length; y++) {
+                if(x != y && curr == end[y]) {
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 }
